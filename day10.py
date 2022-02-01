@@ -43,7 +43,7 @@ def main():
             low = min(bots[bot]['chips'])
             high = max(bots[bot]['chips'])
             if low == 17 and high == 61:
-                print(f"Part A: bot {bot} compared 17 and 71")
+                print(f"Part A: bot {bot} compared 17 and 61")
 
             bots[bot]['chips'] = []
             store_chip(bots[bot]['low_dest'], bots[bot]['low_num'], low)
