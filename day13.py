@@ -23,7 +23,7 @@ def main():
             favorite_number = int(tmp)
 
     steps = dijkstra_solution((1, 1), (31, 39), "Part A")
-    print(f"Part A: shorted path is {steps} steps")
+    print(f"Part A: shortest path is {steps} steps")
 
     max_steps = 50
     locs = bfs_solution((1, 1), max_steps)
