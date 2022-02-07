@@ -17,10 +17,10 @@ def main():
             input_data = tmp
 
     checksum = calculate_checksum(input_data, 272)
-    print(f"Part A: final checksum for is {checksum} ")
+    print(f"Part A: final checksum is {checksum} ")
 
     checksum = calculate_checksum(input_data, 35651584)
-    print(f"Part A: final checksum for is {checksum} ")
+    print(f"Part A: final checksum is {checksum} ")
 
 
 def calculate_checksum(input_data, length):
